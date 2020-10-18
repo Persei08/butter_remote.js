@@ -104,7 +104,7 @@ $(document).ready( function() {
             bt.listennotifications(function(data) {
                 if(data.result.events.viewstack) {
                     view = data.result.events.viewstack[data.result.events.viewstack.length-1];
-                    if(view == "main-browser") {
+                    if(view == "main-browser" || view == "init-container") {
                         getList();
                     } else if(view == "movie-detail" || view == "shows-container-contain") {
                         itemDetails();
