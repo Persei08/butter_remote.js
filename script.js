@@ -90,7 +90,7 @@ $(document).ready( function() {
         //Get the first viewstack
         bt.getviewstack(function(data) {
             view = data.result.viewstack[data.result.viewstack.length-1];
-            if(view == "main-browser") {
+            if(view == "main-browser" || view == "init-container") {
                 getList();
             } else if(view == "movie-detail" || view == "shows-container-contain") {
                 itemDetails();
