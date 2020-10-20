@@ -206,19 +206,24 @@ li {
 	margin:1em;
 }
 #item-image {
-	display:inline-block;
+	display: inline-block;
 	vertical-align: middle;
-	width:500px;
+	width: 350px;
 }
 #item-descr {
-	display:inline-block;
+	display: inline-block;
 	vertical-align: top;
 	margin-left: 1em;
-	width:500px;
+	width: 500px;
+	text-align: left;
 }
 #item-descr > #title {
-	font-size:4em;
+	font-size:2em;
 	margin-bottom:0;
+}
+#item-descr > .metadatas {
+	color:#777777;
+	font-size:0.85em;
 }
 /* temp */
 #item-descr a {
